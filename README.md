@@ -1,6 +1,14 @@
 # C-Note
 
   ```shell
-  ln -s path_to_unzipped_Linemod_preprocessed ffb6d/dataset/linemod/
+  #include<studio.h>
+  int main()
+  {
+    printf("Test Code");
+    return 0;
+  }
   ```
+  一个C语言至少包含一个 main() 函数
+
+  
   
