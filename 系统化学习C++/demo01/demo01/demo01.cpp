@@ -88,7 +88,7 @@ int main()
     //    	C++对名称的长度没有限制，但有些平台可能有长度限制（64字符）。
     //    C++提倡有一定含义的名称（望名知义）。
 
- */
+ 
     // 5.0输入数据
     //5.1 用std::cin输入数据
     string name; //name
@@ -116,5 +116,27 @@ int main()
     std::cin >> face;
     cout << "The face of input: " << face << endl;
 
+    // a）布尔型变量的值在计算机内部用1（true）和0（false）存储；b）程序中可以书写true和false，也可以书写1和0，其它值将强制转换成1；c）用cin输入时可以填1和0，其它值也强制转换成1；d）用cout输出时只显示1和0，不显示true和false。
+    // 如果输入的数据与变量的数据类型不匹配，会导致行为的不确定性。
+*/
+    int a = 9;
+    int b = 3;
+    cout << a / b << endl;
+
+    int i = 10;
+    //a = i;
+    //i = i + 1;
+    //a = i++;
+
+    //i = i + 1;
+    //a = i
+    a = ++i;
+
     
+
+    cout << "i= " << i<< endl;
+    cout << "a= " << a << endl;
+   
+
+
 }
