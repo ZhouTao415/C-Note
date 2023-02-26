@@ -142,5 +142,10 @@ int main()
     c += a;
     cout << "c= " << c << endl;
 
+    int d(10);
+    cout << "d= " << d << endl;
+    
+
+
 
 }
