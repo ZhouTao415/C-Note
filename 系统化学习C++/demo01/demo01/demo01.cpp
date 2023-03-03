@@ -137,13 +137,60 @@ int main()
     cout << "i= " << i<< endl;
     cout << "a= " << a << endl;
    */
-    int a = 10;
-    int c = 20;
-    c += a;
-    cout << "c= " << c << endl;
+   //int a = 10;
+   //int c = 20;
+   //c += a;
+   //cout << "c= " << c << endl;
 
-    int d(10);
+   //int d(10);
+   //cout << "d= " << d << endl;
+
+    //bool yz;
+    //cout << "please input of the appearance (1- beatiful, 0- urgly): ";
+    //cin >> yz;
+
+    //{
+    //    cin >> yz;
+    //}
+
+    //if (yz==true)
+    //{
+    //    cout << "you're beatuiful" << endl;
+    //    cout << "next step" << endl;
+    //}
+
+    //else
+    //{
+    //    cout << "sorry, you can't joint next step" << endl;
+    //    cout << "gib gas" << endl;
+    //} 
+
+    //char sex;
+    //bool yz;
+
+
+    //cout << "input the sex(x-woman, y-man):";
+    //cin >> sex;
+
+    //if (sex == 'x')
+    //{
+    //    cout << "input the apperance: ";
+    //    cin >> yz;
+    //    
+    //    if (yz == true) 
+    //    {
+    //        cout << "input the weight";
+    //    }
+    //}
+    
+
+    int a = 7, b = 9, c = 11, d;
+    
+    d = (a > b ? a : b) > c ? (a > b ? a : b) : c;
     cout << "d= " << d << endl;
+
+
+
     
 
 
